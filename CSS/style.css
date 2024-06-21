@@ -251,6 +251,10 @@ html {
 .btn-search i {
   font-size: 2rem;
   color: #fff;
+}@media (max-width: 767px) {
+  .search-form {
+    display: none;
+  }
 }
 /* ********************************** */
 /*      BANNER        */
