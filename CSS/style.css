@@ -61,7 +61,8 @@ html {
 
 .navbar .menu.active {
   display: flex;
-  flex-direction: column;
+  margin-right: 280px;
+  flex-direction: row;
 }
 
 .navbar .menu li {
@@ -88,6 +89,13 @@ html {
   .navbar .menu li {
     margin: 0 1rem;
   }
+  .navbar .menu {
+  
+    margin-top: 10px;
+    margin-right: 330px;
+ 
+  }
+  
 }
 .container-hero {
   background-color: var(--background-color);
